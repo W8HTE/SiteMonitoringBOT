@@ -1,0 +1,20 @@
+{
+  "name": "site-monitor-bot",
+  "version": "2.0.0",
+  "description": "Advanced Telegram Site Monitoring Bot",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.1.1",
+    "axios": "^1.6.2",
+    "date-fns": "^3.6.0",
+    "node-cron": "^3.0.2",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

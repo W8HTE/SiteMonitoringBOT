@@ -1,0 +1,23 @@
+[telegram]
+
+#Вот тут надо
+token = "Токен"
+chat_id = "Чат ID"
+polling_timeout = 30
+server_url = "https://api.telegram.org"
+
+
+
+[network]
+retry_delay = 5
+max_retries = 3
+
+[monitoring]
+interval = "*/5 * * * *"
+timeout = 10000
+user_agent = "WebStormSiteMonitor/1.0"
+
+sites = [
+    "https://google.com",
+    "https://github.com"
+]
